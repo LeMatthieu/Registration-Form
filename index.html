@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form>
+        <div id="formp1">
+        <label for="fname">Prénom :</label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Nom:</label>
+        <input type="text" name="lname" id="lname">
+        <label for="age">Age :</label>
+        <input type="text" name="age" id="age">
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="xyz@mail.com">
+        <label for="email">Mot de passe : </label>
+        <input type="text" name="password" id="password">
+
+    </div>
+    <div id="formp2">
+        <label for="adresse">Adresse :</label>
+        <input type="text" placeholder="123 boulevard exemple, 75000 Paris" name="adress" id="adress">
+        <label for="pnumber">Numéro de téléphone :</label>
+        <input type="text" name="pnumber" id="pnumber" placeholder="0600000000">
+        <label for="contract">type de contrat: </label>
+        <select name="contract" id="contract" style="margin-left: 4px;">
+            <option value="CDD">CDD</option>
+            <option value="CDI">CDI</option>
+            <option value="STAGE">STAGE</option>
+            <option value="INTERIM">INTERIM</option>
+        </select>
+        <label for="birthday">Birthday :</label>
+        <input type="date" name="birthday" id="birthday">
+        <label for="experience">Années d'ancienneté :</label>
+        <input type="text" name="experience" id="experience"><br>
+
+        
+    </div>
+    <div id="btnenvoi">
+    <button  id="reset">Réinitialiser le texte</button>
+    <button  id="envoyer">Ajouter</button>
+    </div>
+    </form>
+
+    <div id="tableau">
+    <table>
+        <thead>
+            <tr id="headtab">
+                <td>Nom Prénom</td>
+                <td>Email</td>
+                <td>Adresse</td>
+                <td>Téléphone</td>
+                <td>Avatar</td>
+            </tr>
+        </thead>
+        <tbody id="bodytab">
+        </tbody>
+    </table>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="span" class="close">&times;</span>
+      <h2 id="textmodal">Informations détaillées</h2>
+    </div>
+  
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

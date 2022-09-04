@@ -1,0 +1,158 @@
+
+select{
+    margin-right: 5px;
+}
+
+#adress{
+    width:400px;
+}
+#email{
+    width:200px;
+}
+#formp1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#formp2{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#envoyer{
+    margin:20px;
+    background-color: rgb(0, 123, 6);
+    color: white;
+}
+
+
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#btnenvoi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+form{
+    border : solid 2px ;
+    margin-bottom: 20px;
+}
+
+#reset{
+    width: 150px;
+    height: 25px;
+    margin: 20px;
+    background-color: rgb(163, 6, 6);
+    color: white;
+
+}
+
+table,th,td{
+    border: 1px solid rgba(70, 70, 70, 0.935);
+    border-collapse: collapse;
+}
+
+table{
+    width: 80%;
+}
+
+#tableau{
+    display: flex;
+    justify-content: center;
+}
+
+#headtab{
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+}
+
+h1{
+    background-color:  rgb(70, 70, 70);
+    color: white;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#textmodal{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.icondetailler{
+    width: 250px;
+    position: absolute;
+    left:1000px;
+    bottom:350px;
+}
+
+.error{
+    border: 3px solid red;
+    background-color: rgba(219, 5, 5, 0.2)
+}
+
+#errormessage{
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+    border: solid 3 px red;
+    font-size: 18px;
+
+}
+
+#errormessage > p {
+    background-color: red;
+    padding:5px
+
+}
