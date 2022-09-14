@@ -1,4 +1,6 @@
-
+body {
+    background-image: url();
+}
 select{
     margin-right: 5px;
 }
@@ -24,7 +26,22 @@ select{
 #envoyer{
     margin:20px;
     background-color: rgb(0, 123, 6);
+    color: white;       
+}
+
+#showdb{
+    margin:20px;
+    background-color: rgb(0, 123, 6);
+    color: white;       
+}
+
+#deletedb{
+    width: 250px;
+    height: 25px;
+    margin: 20px;
+    background-color: rgb(163, 6, 6);
     color: white;
+
 }
 
 
@@ -155,4 +172,11 @@ h1{
     background-color: red;
     padding:5px
 
+}
+#randomuser{
+    width: 150px;
+    height: 25px;
+    margin: 20px;
+    background-color: rgb(0, 47, 255);
+    color: white;
 }
